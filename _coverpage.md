@@ -10,4 +10,4 @@
 - 可视化
 
 [平台](https://www.truwelcloud.com/)
-[使用说明](#truwelcloud-数据云平台使用手册)
+[使用说明](#快速了解)
