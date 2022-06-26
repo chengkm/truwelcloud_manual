@@ -109,6 +109,8 @@
 
 平台按照物候图片的类型进行分类展示，后期将增加GCC实时计算功能
 
+> 目前支持`CCFC`、`NetCam`、`PhotoNet`等市面主流物候相机
+
 ### 原始文件
 
 <div align=center><img src="_media/analysis_file_unique.png" width="50%"/></div>
