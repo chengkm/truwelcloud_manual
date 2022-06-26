@@ -25,6 +25,8 @@
 1、系统环境
 - Java EE 8
 - Apache Maven 3
+- Node 16
+- NPM 8
 
 2、主框架
 - Spring Boot
