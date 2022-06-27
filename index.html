@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -8,14 +9,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="_media/vue.css">
 </head>
+
 <body>
-  <div id="app"></div>
+  <div id="app">加载中...</div>
   <script>
     window.$docsify = {
-      coverpage: true
+      coverpage: true,
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="_media/docsify.min.js"></script>
+  <script src="_media/countable.js"></script>
 </body>
+
 </html>
