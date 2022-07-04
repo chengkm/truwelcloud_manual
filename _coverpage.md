@@ -3,7 +3,7 @@
 <!-- ![logo](_media/cover.png) -->
 <img src="_media/default-monochrome-black.svg" width = "500" height = "300"  />
 
-# :cn: 华益瑞数据云平台 <small>1.0</small>
+# :cn: 华益瑞数据云平台 <small>1.0.0</small>
 
 - :mag: 数据分析 
 - :house_with_garden: 站点管理 
