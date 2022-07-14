@@ -6,6 +6,7 @@
 
 ## 主要特性
 
+- 后端支持`单体版`或`微服务版`
 - 页面响应式布局
 - 前后端分离开发
 - 支持按钮及数据权限，可自定义数据权限
@@ -29,21 +30,34 @@
 - NPM 8
 
 2、主框架
+
+`单体版`
+
 - Spring Boot
 - Spring Security
 
+`微服务版`
+
+- Spring Cloud Hoxton
+- Spring Framework
+
+> 微服务版架构图:point_down:
+<div align=center><img src="_media/truwel_spring_cloud.png" width="70%"/></div>
+
 3、持久层
 - Apache MyBatis
-- Hikari
+- Alibaba Druid
+
+4、消息中间件
 - ActiveMQ
 
-4、视图层
+5、视图层
 - Vue全家桶
 - Element UI
 - Echarts
 - Amap
 
-5、数据库
+6、数据库
 - Mysql
 - Redis
 
