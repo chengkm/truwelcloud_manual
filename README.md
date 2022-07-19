@@ -131,6 +131,12 @@
 
 平台除了将对接数据直接入库外，不管原始文件是追加模式还是唯一模式都可以很方便地进行管理
 
+### 数据下载
+
+<div align=center><img src="_media/analysis_downloads.png" width="50%"/></div>
+
+平台能够记住上次下载的记录，方便之后进行一键下载
+
 ### 系统详情
 
 <div align=center><img src="_media/analysis_station.png" width="50%"/></div>
