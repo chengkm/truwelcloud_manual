@@ -87,9 +87,10 @@
 ## 首页
 
 <div align=center><img src="_media/dashboard.png" width="70%"/></div>
-<div align=center><img src="_media/dashboard2.png" width="50%"/><img src="_media/dashboard2_setup.png" width="50%"/></div>
+<div align=center><img src="_media/dashboard_egi.png" width="50%"/><img src="_media/dashboard2_setup.png" width="50%"/></div>
 <div align=center><img src="_media/dashboard3.png" width="50%"/><img src="_media/dashboard4.png" width="50%"/></div>
-<div align=center><img src="_media/Kapture 2022-06-25 at 20.30.01.gif" width="70%"/></div>
+<div align=center><img src="_media/Kapture 2022-06-25 at 20.30.01.gif" width="100%"/></div>
+<div align=center><img src="_media/dashboard_mapbox.gif" width="100%"/></div>
 
 :bar_chart: 系统页面分为三大部分，菜单栏用于切换不同功能，导航栏用于展示用户信息、报警信息以及路由信息，主区域展示各种数据信息；首页大屏可根据用户需求定制不同样式
 
@@ -100,9 +101,11 @@
 
 #### 数据图表
 
-<div align=center><img src="_media/analysis_data_grid_diagram.png" width="70%"/></div>
+<div align=center><img src="_media/analysis_classification.png" width="70%"/></div>
 
 默认显示第一个表格前两个字段的最新一天的数据，可通过设置按钮进行参数和间隔时间的选择，通过点击左边树形列表进行站点切换显示
+
+> **提示：** 树形列表可按照系统类型进行划分展示;支持参数中:cn:英:us:显示、单位显示
 
 #### 最新数据
 
