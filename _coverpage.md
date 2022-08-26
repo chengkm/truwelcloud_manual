@@ -7,7 +7,7 @@
 
 - :mag: 数据分析 
 - :house_with_garden: 站点管理 
-- :chart_with_upwards_trend: 可视化 
+- :chart_with_upwards_trend: 图表绘制
 
 [平台](https://www.truwelcloud.com/)
 [使用说明](#快速了解)

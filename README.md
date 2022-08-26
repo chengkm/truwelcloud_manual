@@ -134,17 +134,22 @@
 
 平台除了将对接数据直接入库外，不管原始文件是追加模式还是唯一模式都可以很方便地进行管理
 
-### 数据下载
+### 数据管理
 
-<div align=center><img src="_media/analysis_downloads.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_data.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_data_upload.png" width="50%"/></div>
 
-平台能够记住上次下载的记录，方便之后进行一键下载
+数据的:arrow_up:上传、:arrow_down:下载就在这里
+
+> **提示：** 平台能够记住用户上次下载行为，方便之后进行一键下载:thumbsup:
 
 ### 系统详情
 
-<div align=center><img src="_media/analysis_station.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_station_map.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_station_panorama.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_station_document.png" width="50%"/></div>
 
-对系统详情进行全景图、全景视频、地图等多种方式进行展示
+全景图/视频、地图、档案资料等多种方式进行展示
 
 ## 监控
 
