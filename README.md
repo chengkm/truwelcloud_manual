@@ -87,7 +87,7 @@
 ## 首页
 
 <div align=center><img src="_media/dashboard.png" width="70%"/></div>
-<div align=center><img src="_media/dashboard_egi.png" width="50%"/><img src="_media/dashboard2_setup.png" width="50%"/></div>
+<div align=center><img src="_media/dashboard_egi.png" width="50%"/><img src="_media/dashboard_exhibition.png" width="50%"/></div>
 <div align=center><img src="_media/dashboard3.png" width="50%"/><img src="_media/dashboard4.png" width="50%"/></div>
 <div align=center><img src="_media/Kapture 2022-06-25 at 20.30.01.gif" width="100%"/></div>
 <div align=center><img src="_media/dashboard_mapbox.gif" width="100%"/></div>
@@ -98,6 +98,10 @@
 ## 站点数据
 
 ### 气象数据
+
+<div align=center><img src="_media/analysis_data_split.gif" width="70%"/></div>
+
+> **提示：** 可以拖拽中间区域:point_left:调整左右显示比例
 
 #### 数据图表
 
