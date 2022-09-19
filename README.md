@@ -86,7 +86,7 @@
 
 ## 首页
 
-<div align=center><img src="_media/dashboard.png" width="70%"/></div>
+<div align=center><img src="_media/dashboard_sidebar.jpg" width="50%"/><img src="_media/dashboard_topnav.jpg" width="50%"/></div>
 <div align=center><img src="_media/dashboard_egi.png" width="50%"/><img src="_media/dashboard_exhibition.png" width="50%"/></div>
 <div align=center><img src="_media/dashboard3.png" width="50%"/><img src="_media/dashboard4.png" width="50%"/></div>
 <div align=center><img src="_media/Kapture 2022-06-25 at 20.30.01.gif" width="100%"/></div>
@@ -94,7 +94,7 @@
 
 :bar_chart: 系统页面分为三大部分，菜单栏用于切换不同功能，导航栏用于展示用户信息、报警信息以及路由信息，主区域展示各种数据信息；首页大屏可根据用户需求定制不同样式
 
-> :100: 支持皮肤切换、展示数据自定义、分组全屏功能
+> :100: 支持皮肤切换、展示数据自定义、分组全屏功能、左侧或顶部菜单栏切换
 ## 站点数据
 
 ### 气象数据
