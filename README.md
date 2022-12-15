@@ -17,7 +17,7 @@
 - 支持数据报表一键导出
 - 支持`MQTT`消息接入
 - 支持物候照片管理、数据文件管理
-- 支持多种监控视频接入
+- 支持符合国标GB28181监控视频接入
 - 支持在线用户管理
 - 接口符合`RESTful api`规范
 - 支持多种气象数据接入
@@ -35,6 +35,11 @@
 
 - Spring Boot
 - Spring Security
+
+> 视频监控架构图:point_down:
+<div align=center><img src="_media/video-architecture.png" width="70%"/></div>
+
+视频监控`信令服务`与`流媒体服务`均采用成熟`开源`框架搭建,更加注重用户监控数据安全
 
 `微服务版`
 
@@ -107,7 +112,7 @@
 
 <div align=center><img src="_media/analysis_classification.png" width="70%"/></div>
 
-默认显示第一个表格前两个字段的最新一天的数据，可通过设置按钮进行参数和间隔时间的选择，通过点击左边树形列表进行站点切换显示
+默认显示第1个表格前两个字段的最近24小时数据，可通过设置按钮进行参数和间隔时间的选择，通过点击左边树形列表进行站点切换显示
 
 > **提示：** 树形列表可按照系统类型进行划分展示;支持参数中:cn:英:us:显示、单位显示
 
@@ -124,6 +129,7 @@
 在这里可以对数据进行更细化的分析，包括`折线图`、`散点图`、`风玫瑰`、`梯度图`、`列表`，可以对数据进行列表下载或打包下载
 
 > **提示：** 参数可以随意组合，支持跨站点数据分析
+
 ### 物候数据
 
 <div align=center><img src="_media/analysis_img_normal.png" width="50%"/><img src="_media/analysis_img_ndvi.png" width="50%"/></div>
@@ -131,6 +137,12 @@
 平台按照物候图片的类型进行分类展示，后期将增加GCC实时计算功能
 
 > :camera: 目前支持`CCFC`、`NetCam`、`PhotoNet`等市面主流物候相机
+
+### 视频监控
+
+<div align=center><img src="_media/analysis_video.png" width="50%"/></div>
+
+> **提示：** 可一、四、九分屏展示
 
 ### 原始文件
 
@@ -145,7 +157,7 @@
 
 数据的:arrow_up:上传、:arrow_down:下载就在这里
 
-> **提示：** 平台能够记住用户上次下载行为，方便之后进行一键下载:thumbsup:
+> **提示：** 平台能够记住用户上次下载记录，方便之后进行一键下载:thumbsup:
 
 ### 系统详情
 
@@ -203,6 +215,12 @@
 <div align=center><img src="_media/sys_menu.png" width="70%"/></div>
 
 可以对平台菜单栏内容进行更改，包括名称、顺序、图标等
+
+### 视频管理
+
+<div align=center><img src="_media/sys_video_device.png" width="70%"/><img src="_media/sys_video_channel.png" width="70%"/></div>
+
+管理监控设备、视频通道、控制云台等
 
 ### 站点管理
 
