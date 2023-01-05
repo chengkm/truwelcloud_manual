@@ -138,6 +138,12 @@
 
 > :camera: 目前支持`CCFC`、`NetCam`、`PhotoNet`等市面主流物候相机
 
+### 点云数据
+
+<div align=center><img src="_media/analysis_point_cloud.png" width="50%"/></div>
+
+> :cloud: 目前仅支持`LAS`格式点云
+
 ### 视频监控
 
 <div align=center><img src="_media/analysis_video.png" width="50%"/></div>
