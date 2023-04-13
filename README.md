@@ -2,25 +2,25 @@
 
 ## 它是什么?
 
-`truwelcloud` 是一套**完整的**、**通用**的数据管理平台:smile:，方便科研用户快速管理台站的**数据**、**图片**、**监控**等各种类型业务数据。
+华益瑞数据云平台(Truwel Cloud)是完全由华益瑞自主研发的一套**完整的**、**通用的**B/S架构数据管理平台，能够让广大科研用户快速便捷地管理台站的**数据**、**照片**、**监控**等各种类型业务数据。
+
+平台目前用户有中国林业科学研究院、中国科学院新疆生态与地理研究所、中国科学院青藏高原研究所、中国生态系统研究网络(CERN)等。
 
 ## 主要特性
 
+- 可部署在用户`Windows`/`Linux`服务器
 - 后端支持`单体版`或`微服务版`
-- 页面响应式布局
-- 前后端分离开发
-- 支持按钮及数据权限，可自定义数据权限
-- 支持服务监控，数据监控，缓存监控功能
-- 采用`Spring Security`+ `JWT` + `Redis`保障用户之间权限隔离
-- 可`自定义`可视化大屏内容，并支持主题切换
-- 支持`企业微信`、`短信`、`邮件`等多种方式的数据、通讯报警信息推送
+- 前端页面响应式布局
+- 接口符合`RESTful API`规范
+- 支持按钮级别数据权限
+- 保证用户之间绝对的权限隔离
+- 支持`微信`、`QQ`、`钉钉`、`短信`、`邮件`等多种方式的告警信息推送
 - 支持数据报表一键导出
 - 支持`MQTT`消息接入
-- 支持物候照片管理、数据文件管理
+- 支持国内外数采数据接入
+- 支持物候照片及数据文件管理
 - 支持符合国标GB28181监控视频接入
-- 支持在线用户管理
-- 接口符合`RESTful api`规范
-- 支持多种气象数据接入
+- 支持LAS点云数据接入
 
 ## 技术选型
 1、系统环境
@@ -55,12 +55,11 @@
 
 4、消息中间件
 - ActiveMQ
+- Kafka
 
 5、视图层
 - Vue全家桶
 - Element UI
-- Echarts
-- Amap
 
 6、数据库
 - Mysql
@@ -72,6 +71,7 @@
 - MySQL >= 5.7
 - Redis >= 7.0.0
 - Windows Server or Linux
+- 2核(vCPU) 8GiB内存 30GiB硬盘 5Mbps带宽
 
 ## 浏览器支持
 
@@ -88,6 +88,12 @@
 </div>
 
 # 使用手册
+
+## 注册
+
+<div align=center><img src="_media/register.png" width="100%"/></div>
+
+> :raising_hand: 如果想体验平台功能可在首页进行注册，申请通过后会通过邮件通知
 
 ## 首页
 
@@ -158,22 +164,26 @@
 
 ### 数据管理
 
-<div align=center><img src="_media/analysis_data.png" width="50%"/></div>
-<div align=center><img src="_media/analysis_data_upload.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_data.png" width="50%"/><img src="_media/analysis_data_upload.png" width="50%"/></div>
 
 数据的:arrow_up:上传、:arrow_down:下载就在这里
 
 > **提示：** 平台能够记住用户上次下载记录，方便之后进行一键下载:thumbsup:
 
+### 数据报表
+
+<div align=center><img src="_media/analysis_report.png" width="50%"/><img src="_media/analysis_report_excel.png" width="44%"/></div>
+
+> **提示：** 可按周、月和季度定时生成:page_facing_up:
+
+
 ### 系统详情
 
-<div align=center><img src="_media/analysis_station_map.png" width="50%"/></div>
-<div align=center><img src="_media/analysis_station_panorama.png" width="50%"/></div>
-<div align=center><img src="_media/analysis_station_document.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_station_map.png" width="50%"/><img src="_media/analysis_station_document.png" width="50%"/></div>
 
 全景图/视频、地图、档案资料等多种方式进行展示
 
-## 监控
+## 系统监控
 
 ### 传输监控
 
@@ -206,7 +216,7 @@
 
 ### 用户管理
 
-<div align=center><img src="_media/sys_user.png" width="50%"/><img src="_media/sys_user_categories.png" width="50%"/></div>
+<div align=center><img src="_media/sys_user.png" width="50%"/><img src="_media/sys_user_categories.png" width="44%"/></div>
 
 
 > 一个用户可以分配多个角色
@@ -230,11 +240,7 @@
 
 ### 站点管理
 
-<div align=center><img src="_media/sys_station.png" width="70%"/></div>
-
-<div align=center><img src="_media/sys_station_setup.png" width="70%"/></div>
-
-<div align=center><img src="_media/sys_station_field.png" width="70%"/></div>
+<div align=center><img src="_media/sys_station.png" width="50%"/><img src="_media/sys_station_field.png" width="50%"/></div>
 
 平台按照`站点`->`系统`->`数据表`三级进行分类，在`数据表`层可继续细分`数据`、`图片`和`文件`三大类
 
@@ -242,7 +248,7 @@
 
 ## 日志管理
 
-### 数据报警
+### 数据告警
 
 <div align=center><img src="_media/log_warning.png" width="70%"/></div>
 
