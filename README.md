@@ -146,7 +146,7 @@
 
 ### 点云数据
 
-<div align=center><img src="_media/analysis_point_cloud.png" width="50%"/></div>
+<div align=center><img src="_media/analysis_point_cloud.jpg" width="50%"/><img src="_media/analysis_point_cloud_list.png" width="50%"/></div>
 
 > :cloud: 目前仅支持`LAS`格式点云
 
